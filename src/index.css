@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent-rgb: 251 191 36; /* runtime default; App.tsx overrides from content.json */
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  @apply bg-ink text-zinc-300 antialiased;
+}
+
+::selection {
+  background: rgb(var(--accent-rgb) / 0.85);
+  color: #0a0a10;
+}
+
+/* Global visible focus for keyboard users */
+:focus-visible {
+  outline: 2px solid rgb(var(--accent-rgb));
+  outline-offset: 3px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a10;
+}
+::-webkit-scrollbar-thumb {
+  background: #26262f;
+  border-radius: 6px;
+}
+
+/* r3F sets touch-action:none on the canvas. We allow vertical page scroll
+   through the 3D area: horizontal drag = look around, vertical swipe = scroll. */
+.canvas-wrap canvas {
+  touch-action: pan-y !important;
+}

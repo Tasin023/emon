@@ -1,0 +1,91 @@
+{
+  "site": {
+    "name": "Gazi Md Emon",
+    "role": "Video Editor & Motion Designer",
+    "tagline": "I cut videos people actually finish watching — YouTube long-form, ads and short-form with hooks that land and payoffs that deliver.",
+    "accentHex": "#fbbf24",
+    "bgHex": "#0a0a10",
+    "seo": {
+      "title": "Gazi Md Emon — Video Editor & Motion Designer",
+      "description": "Gazi Md Emon — video editor for YouTube, ads and short-form. Watch the showreel, browse the 3D gallery and get a quote within 24 hours."
+    },
+    "showreel": {
+      "url": "",
+      "poster": ""
+    }
+  },
+  "contact": {
+    "email": "mdemong69@gmail.com",
+    "phone": "+8801778797300",
+    "whatsappUrl": "https://wa.me/8801778797300",
+    "telegramUrl": "https://t.me/mohammad_emon01",
+    "responseNote": "Replies within 24 hours · Bangladesh (GMT+6)"
+  },
+  "socials": [],
+  "about": {
+    "bio": [
+      "I'm Emon — a video editor from Bangladesh. I started with gaming montages and YouTube cuts, and today I edit long-form videos, ads and short-form packs for creators and brands.",
+      "My obsession is retention: every cut, sound cue and caption exists to keep the viewer past the next second. Structure first, polish second — never the other way around."
+    ],
+    "tools": ["Premiere Pro", "After Effects", "DaVinci Resolve", "Audition", "Photoshop"],
+    "stats": [
+      { "value": "5+", "label": "years editing" },
+      { "value": "200+", "label": "videos delivered" },
+      { "value": "10M", "label": "views edited for" }
+    ]
+  },
+  "services": [
+    {
+      "title": "YouTube long-form",
+      "description": "Retention-first edits for docs, vlogs and video essays. Structure, pacing, sound design, motion captions.",
+      "from": "from $350 / video"
+    },
+    {
+      "title": "Short-form packs",
+      "description": "Vertical hooks built for the first 1.5 seconds. Packs of 4–12 cut from your long-form or raw footage.",
+      "from": "from $60 / short"
+    },
+    {
+      "title": "Ads & brand films",
+      "description": "15–60s spots: grade, sound design, licensed music handling, motion graphics, all aspect ratios.",
+      "from": "from $900 / spot"
+    },
+    {
+      "title": "Motion graphics",
+      "description": "Title packages, lower thirds, logo stings and explainer animation in After Effects.",
+      "from": "from $250 / package"
+    }
+  ],
+  "process": [
+    { "title": "Brief & quote", "text": "Send footage and a rough idea. You get a plan and a fixed quote within 24 hours." },
+    { "title": "First cut", "text": "Structure, pacing and sound are already locked in v1 — no placeholder edits." },
+    { "title": "Two revision rounds", "text": "Timestamped comments, fully async. No calls needed unless you want them." },
+    { "title": "Delivery", "text": "Final exports in every ratio and spec you need. Project files available on request." }
+  ],
+  "galleries": {
+    "videos": {
+      "label": "Videos",
+      "items": [
+        {
+          "file": "01-brand-film.mp4",
+          "title": "Brand Film — Client Name",
+          "description": "Optional: nicer title and description for the lightbox. If this file doesn't exist, this entry is simply ignored."
+        }
+      ]
+    },
+    "images": {
+      "label": "Stills",
+      "items": []
+    },
+    "beforeAfter": {
+      "label": "Before / After",
+      "items": [
+        {
+          "file": "01-color-grade",
+          "title": "Color grade",
+          "description": "Optional override. 'file' must match the folder name inside src/media/beforeafter/."
+        }
+      ]
+    }
+  }
+}
